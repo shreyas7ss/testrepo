@@ -1,0 +1,2825 @@
+﻿[
+  {
+    "disease": "Hypertension",
+    "subcategories": [
+      {
+        "name": "Essential Hypertension",
+        "age_groups": [
+          {
+            "group": "Teenager",
+            "age_range": "13-19 years",
+            "medicines": [
+              {
+                "name": "Hydrochlorothiazide",
+                "dosage": "12.5-25 mg once daily.",
+                "notes": "Often used as a second-line agent. Monitor for electrolyte imbalances, especially hypokalemia."
+              },
+              {
+                "name": "Enalapril",
+                "dosage": "2.5-5 mg once daily, adjusted to maximum 20 mg daily.",
+                "notes": "An ACE inhibitor that is generally well-tolerated. Watch for angioedema or persistent cough."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Amlodipine",
+                "dosage": "5-10 mg once daily.",
+                "notes": "A calcium channel blocker used as a first-line agent. May cause ankle edema and headache."
+              },
+              {
+                "name": "Losartan",
+                "dosage": "50 mg once daily, adjusted to maximum 100 mg daily.",
+                "notes": "An ARB (Angiotensin Receptor Blocker) that is a good alternative for patients who cannot tolerate ACE inhibitors due to cough."
+              },
+              {
+                "name": "Metoprolol",
+                "dosage": "25-100 mg twice daily.",
+                "notes": "A beta-blocker. Avoid abrupt discontinuation. It is often a preferred agent for patients with concomitant angina or tachycardia."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Amlodipine",
+                "dosage": "Initial dose of 2.5 mg once daily, titrate slowly to 5-10 mg.",
+                "notes": "Use lower initial doses to avoid adverse effects. Monitor for orthostatic hypotension."
+              },
+              {
+                "name": "Indapamide",
+                "dosage": "1.25-2.5 mg once daily.",
+                "notes": "A thiazide-like diuretic that is effective for isolated systolic hypertension. Monitor for electrolyte disturbances."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Diabetes Mellitus (Type 2)",
+    "subcategories": [
+      {
+        "name": "Oral Hypoglycemic Agents",
+        "age_groups": [
+          {
+            "group": "Teenager",
+            "age_range": "13-19 years",
+            "medicines": [
+              {
+                "name": "Metformin",
+                "dosage": "500 mg twice daily, increase up to 2 g daily.",
+                "notes": "The first-line agent for overweight individuals. May cause gastrointestinal side effects."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Metformin",
+                "dosage": "Initial dose of 500 mg once or twice daily with meals, titrate to 1.5-2 g daily.",
+                "notes": "Avoid in patients with eGFR < 30 mL/min. Can cause vitamin B12 deficiency with long-term use."
+              },
+              {
+                "name": "Gliclazide",
+                "dosage": "40-80 mg once daily with breakfast, titrate to 320 mg daily.",
+                "notes": "A sulfonylurea. May cause hypoglycemia, so patient education on recognizing symptoms is critical."
+              },
+              {
+                "name": "Dapagliflozin",
+                "dosage": "10 mg once daily.",
+                "notes": "An SGLT2 inhibitor. Besides lowering blood glucose, it has demonstrated cardiovascular and renal benefits. May cause urinary tract infections."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Metformin",
+                "dosage": "Lower doses may be initiated to reduce risk of gastrointestinal side effects.",
+                "notes": "Assess renal function before starting. Reduce dose or stop if eGFR decreases."
+              },
+              {
+                "name": "Voglibose",
+                "dosage": "0.2-0.3 mg three times daily with meals.",
+                "notes": "An alpha-glucosidase inhibitor. Good for post-prandial hyperglycemia. Minimal risk of hypoglycemia."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Insulin Therapy",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Insulin Isophane (NPH)",
+                "dosage": "Start with 0.2 units/kg/day, adjust based on blood glucose readings.",
+                "notes": "Intermediate-acting insulin. Administered subcutaneously. Requires patient training on injection technique."
+              },
+              {
+                "name": "Insulin Glargine",
+                "dosage": "0.2 units/kg/day once daily at the same time each day.",
+                "notes": "A long-acting insulin analog. Provides a consistent background level of insulin, reducing the risk of nocturnal hypoglycemia."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Asthma",
+    "subcategories": [
+      {
+        "name": "Acute Exacerbation",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Salbutamol",
+                "dosage": "100 mcg per puff, 2-10 puffs via spacer every 20 minutes for the first hour, then every 1-4 hours as needed.",
+                "notes": "SABA (Short-Acting Beta-Agonist) for quick relief. A spacer is essential for effective delivery in children."
+              },
+              {
+                "name": "Prednisolone",
+                "dosage": "1-2 mg/kg/day, up to a maximum of 40 mg daily for 3-5 days.",
+                "notes": "Used for moderate-to-severe exacerbations. No tapering needed for courses under one week."
+              }
+            ]
+          },
+          {
+            "group": "Teenager",
+            "age_range": "13-19 years",
+            "medicines": [
+              {
+                "name": "Salbutamol",
+                "dosage": "2-4 puffs as needed for symptoms. For severe attacks, up to 10 puffs every 15-20 minutes for an hour.",
+                "notes": "First-line rescue medication. Educate on the difference between rescue and controller inhalers."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Salbutamol",
+                "dosage": "2-4 puffs as needed. For acute severe asthma, consider nebulized salbutamol 2.5-5 mg every 15-20 minutes.",
+                "notes": "Use as a rescue medication. Over-reliance indicates poor disease control."
+              },
+              {
+                "name": "Prednisolone",
+                "dosage": "40-60 mg once daily for 5-7 days.",
+                "notes": "Short-course oral corticosteroid to reduce airway inflammation during an attack."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chronic Management",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Budesonide",
+                "dosage": "100-200 mcg twice daily.",
+                "notes": "A low-dose inhaled corticosteroid (ICS). Rinse mouth after use to prevent oral thrush."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Fluticasone/Salmeterol",
+                "dosage": "250 mcg/50 mcg twice daily.",
+                "notes": "A combination of an inhaled corticosteroid and a long-acting beta-agonist (LABA) for moderate to severe persistent asthma."
+              },
+              {
+                "name": "Montelukast",
+                "dosage": "10 mg once daily at bedtime.",
+                "notes": "A leukotriene receptor antagonist. An alternative or add-on therapy for patients with allergic asthma."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Fluticasone/Salmeterol",
+                "dosage": "Lower doses may be considered. Monitor for bone density and cataracts with long-term use.",
+                "notes": "Ensure proper inhaler technique. Tiotropium can be added for maintenance in patients with history of COPD."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Malaria",
+    "subcategories": [
+      {
+        "name": "P. Falciparum (Uncomplicated)",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Artemether/Lumefantrine",
+                "dosage": "Fixed-dose combination based on weight. Twice daily for 3 days.",
+                "notes": "First-line treatment. Tablets should be taken with fatty food to improve absorption."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Artemether/Lumefantrine",
+                "dosage": "4 tablets twice daily for 3 days.",
+                "notes": "The most effective regimen. Dose should be taken with food/milk. Contraindicated in the first trimester of pregnancy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "P. Vivax and P. Ovale",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Chloroquine",
+                "dosage": "10 mg/kg initial dose, followed by 5 mg/kg after 6 hours, then 5 mg/kg daily for 2 days.",
+                "notes": "Used for the acute stage. For radical cure, add Primaquine. G6PD deficiency testing is essential before starting Primaquine."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Chloroquine",
+                "dosage": "600 mg initial dose, then 300 mg after 6 hours, followed by 300 mg daily for 2 days.",
+                "notes": "Effective against susceptible strains. For radical cure, add Primaquine. Test for G6PD deficiency to avoid hemolytic anemia."
+              },
+              {
+                "name": "Primaquine",
+                "dosage": "15 mg daily for 14 days.",
+                "notes": "Used to eliminate hypnozoites in the liver to prevent relapse. Only administered after a negative G6PD test."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Tuberculosis",
+    "subcategories": [
+      {
+        "name": "First-line Treatment (Category I)",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Rifampicin, Isoniazid, Pyrazinamide, Ethambutol (FDC)",
+                "dosage": "Dose based on weight (e.g., for 17-25 kg, 2 tablets once daily).",
+                "notes": "Fixed-dose combination (FDC) is preferred to improve adherence. Monitor for adverse effects like hepatotoxicity and vision changes."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Rifampicin, Isoniazid, Pyrazinamide, Ethambutol (FDC)",
+                "dosage": "Dose based on weight (e.g., for 50-60 kg, 4 tablets once daily).",
+                "notes": "Treatment involves an initial intensive phase (2 months) followed by a continuation phase (4 months)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Epilepsy",
+    "subcategories": [
+      {
+        "name": "Generalized Tonic-Clonic Seizures",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Sodium Valproate",
+                "dosage": "15 mg/kg/day, increase weekly to 20-30 mg/kg/day.",
+                "notes": "First-line drug for generalized seizures. May cause weight gain and hepatotoxicity. Avoid in girls of reproductive age if possible due to teratogenicity."
+              },
+              {
+                "name": "Phenytoin",
+                "dosage": "5-10 mg/kg/day in two divided doses.",
+                "notes": "Used for tonic-clonic seizures. Can cause gum hyperplasia and hirsutism. Monitor drug levels."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Carbamazepine",
+                "dosage": "200 mg twice daily, increase to 400-600 mg twice daily.",
+                "notes": "Monitor for skin rashes (e.g., Stevens-Johnson Syndrome). Can cause hyponatremia and drowsiness."
+              },
+              {
+                "name": "Lamotrigine",
+                "dosage": "Start with 25 mg daily, titrate slowly.",
+                "notes": "A broad-spectrum AED. Slow titration is crucial to minimize the risk of severe skin rash."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Absence Seizures",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Ethosuximide",
+                "dosage": "10-20 mg/kg/day in divided doses.",
+                "notes": "First-line for absence seizures. Less effective against generalized tonic-clonic seizures."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Anxiety Disorders",
+    "subcategories": [
+      {
+        "name": "Generalized Anxiety Disorder",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Sertraline",
+                "dosage": "25-50 mg once daily, increase as needed.",
+                "notes": "An SSRI, considered first-line therapy. Requires 4-6 weeks to show full effect. May cause insomnia or gastrointestinal issues."
+              },
+              {
+                "name": "Diazepam",
+                "dosage": "2-5 mg twice daily for short-term use.",
+                "notes": "A benzodiazepine. Used for short-term relief of severe anxiety. High potential for dependence and sedation."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Escitalopram",
+                "dosage": "5-10 mg daily.",
+                "notes": "An SSRI. Use lower initial doses and titrate slowly. Monitor for falls, as SSRIs can increase this risk."
+              },
+              {
+                "name": "Buspirone",
+                "dosage": "5 mg twice or three times daily, increase as needed to a maximum of 60 mg/day.",
+                "notes": "A non-benzodiazepine anxiolytic. It is less sedating and has a lower risk of dependence compared to benzodiazepines."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Pain and Inflammation",
+    "subcategories": [
+      {
+        "name": "Mild to Moderate Pain",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Ibuprofen",
+                "dosage": "5-10 mg/kg every 6-8 hours.",
+                "notes": "NSAID. Use with caution in children with dehydration. Can be used for pain and fever."
+              },
+              {
+                "name": "Paracetamol",
+                "dosage": "15 mg/kg every 4-6 hours, maximum 60 mg/kg/day.",
+                "notes": "Antipyretic and analgesic. Overdose can cause severe liver damage."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Diclofenac",
+                "dosage": "50 mg three times daily.",
+                "notes": "NSAID. Take with food to reduce gastric irritation. Avoid in patients with a history of peptic ulcers or renal impairment."
+              },
+              {
+                "name": "Paracetamol",
+                "dosage": "500-1000 mg every 4-6 hours, maximum 4 g daily.",
+                "notes": "Commonly used. Safe for most people at recommended doses, but dangerous in overdose."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Paracetamol",
+                "dosage": "Lower doses may be required (e.g., 500 mg every 6 hours), with a maximum of 3 g daily.",
+                "notes": "First-line for pain. Avoid NSAIDs due to increased risk of gastrointestinal, renal, and cardiovascular side effects."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Gout",
+    "subcategories": [
+      {
+        "name": "Acute Attack",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Indomethacin",
+                "dosage": "50 mg three times daily until pain subsides.",
+                "notes": "A potent NSAID. Use for the shortest duration possible to avoid side effects."
+              },
+              {
+                "name": "Colchicine",
+                "dosage": "1 mg, followed by 0.5 mg one hour later.",
+                "notes": "Used for acute gout. Nausea and diarrhea are very common side effects."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Chronic Management (Prophylaxis)",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Allopurinol",
+                "dosage": "100 mg daily, increase slowly to 300 mg daily.",
+                "notes": "A xanthine oxidase inhibitor. Used to lower uric acid levels. Start at a low dose to prevent a paradoxical acute attack."
+              },
+              {
+                "name": "Febuxostat",
+                "dosage": "40-80 mg daily.",
+                "notes": "An alternative to allopurinol for patients who cannot tolerate it. No dose adjustment needed for mild-to-moderate renal impairment."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Infections (Common)",
+    "subcategories": [
+      {
+        "name": "Bacterial (Community-Acquired Pneumonia)",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Amoxicillin",
+                "dosage": "30-50 mg/kg/day in three divided doses for 7-10 days.",
+                "notes": "Standard treatment for mild pneumonia. Consider Amoxicillin-Clavulanic acid for resistant cases."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Amoxicillin",
+                "dosage": "500 mg three times daily for 7 days.",
+                "notes": "First-line for uncomplicated cases. For severe cases or if penicillin-allergic, use Azithromycin."
+              },
+              {
+                "name": "Azithromycin",
+                "dosage": "500 mg once daily for 3 days.",
+                "notes": "A macrolide. Good for atypical pneumonia. Short course improves adherence. May prolong QT interval."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Urinary Tract Infection",
+        "age_groups": [
+          {
+            "group": "Teenager",
+            "age_range": "13-19 years",
+            "medicines": [
+              {
+                "name": "Nitrofurantoin",
+                "dosage": "100 mg twice daily for 5-7 days.",
+                "notes": "Avoid in patients with GFR < 60 mL/min. Take with food to improve absorption and reduce GI side effects."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Ciprofloxacin",
+                "dosage": "500 mg twice daily for 7-14 days.",
+                "notes": "A fluoroquinolone. Effective but associated with tendonitis and tendon rupture. Reserve for resistant or complicated cases."
+              },
+              {
+                "name": "Fosfomycin",
+                "dosage": "3 g as a single dose.",
+                "notes": "A single-dose therapy. Good for uncomplicated cystitis. Can be a good option for pregnant women."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Fever",
+    "subcategories": [
+      {
+        "name": "Symptomatic Treatment",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Paracetamol (syrup/suspension)",
+                "dosage": "15 mg/kg every 4-6 hours.",
+                "notes": "First-line agent. Do not exceed 4 doses in 24 hours. Use of appropriate formulation and measuring device is crucial."
+              },
+              {
+                "name": "Ibuprofen (syrup/suspension)",
+                "dosage": "5-10 mg/kg every 6-8 hours.",
+                "notes": "Alternative to paracetamol. Avoid in dehydrated children or those with gastric problems."
+              }
+            ]
+          },
+          {
+            "group": "Teenager",
+            "age_range": "13-19 years",
+            "medicines": [
+              {
+                "name": "Paracetamol",
+                "dosage": "500-1000 mg every 4-6 hours.",
+                "notes": "Can be combined with cool compresses and increased fluid intake."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Paracetamol",
+                "dosage": "500-1000 mg every 4-6 hours, maximum 4 g daily.",
+                "notes": "Take care not to exceed maximum daily dose, especially if taking combination products."
+              },
+              {
+                "name": "Ibuprofen",
+                "dosage": "200-400 mg every 4-6 hours.",
+                "notes": "An NSAID. Use with caution in those with kidney disease or stomach ulcers."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Paracetamol",
+                "dosage": "500 mg every 6 hours, with a maximum daily dose of 3 g.",
+                "notes": "Preferred agent. NSAIDs like ibuprofen should be used with extreme caution due to renal and gastric risks."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Anemia (Iron Deficiency)",
+    "subcategories": [
+      {
+        "name": "Iron Supplementation",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Ferrous Sulphate (syrup)",
+                "dosage": "3 mg/kg of elemental iron daily in divided doses.",
+                "notes": "Liquid form is easier for children. Administer with a straw to prevent teeth staining."
+              }
+            ]
+          },
+          {
+            "group": "Teenager",
+            "age_range": "13-19 years",
+            "medicines": [
+              {
+                "name": "Ferrous Sulphate",
+                "dosage": "200 mg (equivalent to 60 mg elemental iron) once or twice daily.",
+                "notes": "Take on an empty stomach for better absorption, but can be taken with food to reduce GI upset. Advise on dark stools."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Ferrous Sulphate",
+                "dosage": "200 mg three times daily.",
+                "notes": "First-line oral iron. Can cause constipation or dark stools. Continue for 3-6 months after hemoglobin levels return to normal."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Ferrous Sulphate",
+                "dosage": "200 mg once or twice daily.",
+                "notes": "Lower doses may be better tolerated. Investigate the underlying cause of iron deficiency, which may be more serious in this age group."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Hyperlipidemia",
+    "subcategories": [
+      {
+        "name": "Statins for Cholesterol Control",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Atorvastatin",
+                "dosage": "10-20 mg once daily at bedtime.",
+                "notes": "First-line for lowering LDL cholesterol. Monitor liver function tests and muscle symptoms."
+              },
+              {
+                "name": "Simvastatin",
+                "dosage": "20-40 mg once daily at bedtime.",
+                "notes": "Another common statin. Avoid grapefruit juice as it increases the risk of side effects."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Atorvastatin",
+                "dosage": "Start with a low dose (e.g., 10 mg) and titrate based on response and tolerability.",
+                "notes": "Monitor for muscle pain or weakness, as this risk is higher in older adults."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Allergic Rhinitis",
+    "subcategories": [
+      {
+        "name": "Symptomatic Treatment",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Cetirizine",
+                "dosage": "5 mg once daily.",
+                "notes": "A second-generation antihistamine. Less sedating than first-generation options."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Fexofenadine",
+                "dosage": "120-180 mg once daily.",
+                "notes": "A non-sedating antihistamine. Does not cause drowsiness."
+              },
+              {
+                "name": "Fluticasone (nasal spray)",
+                "dosage": "1-2 sprays per nostril once daily.",
+                "notes": "An inhaled corticosteroid. Most effective for controlling all symptoms of allergic rhinitis."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Acute Diarrhea",
+    "subcategories": [
+      {
+        "name": "Symptomatic and Supportive Care",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Oral Rehydration Salts (ORS)",
+                "dosage": "Administer after every loose motion. Amount depends on age and weight.",
+                "notes": "Crucial for preventing dehydration. The cornerstone of treatment."
+              },
+              {
+                "name": "Zinc Sulphate",
+                "dosage": "10 mg once daily for 14 days.",
+                "notes": "Recommended by WHO. Reduces the duration and severity of diarrhea and prevents future episodes."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Oral Rehydration Salts (ORS)",
+                "dosage": "Drink 1-2 liters over 4-6 hours, followed by continuous intake.",
+                "notes": "Used to replace fluid and electrolyte loss. Should be the first-line treatment."
+              },
+              {
+                "name": "Loperamide",
+                "dosage": "4 mg initially, followed by 2 mg after each loose stool, up to 16 mg daily.",
+                "notes": "Used for symptomatic relief. Avoid in bloody diarrhea or fever. Not recommended for children under 12."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Peptic Ulcer Disease",
+    "subcategories": [
+      {
+        "name": "Acid Suppression",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Omeprazole",
+                "dosage": "20 mg once daily for 4-8 weeks.",
+                "notes": "A proton pump inhibitor (PPI). Take 30-60 minutes before breakfast. May cause headaches or gastrointestinal disturbances."
+              },
+              {
+                "name": "Ranitidine",
+                "dosage": "150 mg twice daily.",
+                "notes": "An H2-receptor antagonist. No longer recommended in many places due to contamination concerns, but historically a common treatment."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "H. Pylori Eradication",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Triple Therapy (Amoxicillin, Clarithromycin, Omeprazole)",
+                "dosage": "All three drugs twice daily for 7-14 days.",
+                "notes": "Standard treatment for H. pylori. Adherence is critical for success. Can cause a metallic taste and GI upset."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Depression",
+    "subcategories": [
+      {
+        "name": "Major Depressive Disorder",
+        "age_groups": [
+          {
+            "group": "Teenager",
+            "age_range": "13-19 years",
+            "medicines": [
+              {
+                "name": "Sertraline",
+                "dosage": "25 mg once daily, titrate to 50 mg. Doses may be lower than in adults.",
+                "notes": "An SSRI. Used with close monitoring for suicidal ideation, which is a black box warning in this age group."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Fluoxetine",
+                "dosage": "20 mg once daily, may increase up to 80 mg daily.",
+                "notes": "An SSRI. The long half-life makes it a good choice for patients who may miss a dose."
+              },
+              {
+                "name": "Venlafaxine",
+                "dosage": "75 mg once daily, extended-release formulation.",
+                "notes": "An SNRI. Effective for severe depression. Monitor for increased blood pressure at higher doses."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Sertraline",
+                "dosage": "12.5-25 mg once daily, titrate slowly.",
+                "notes": "Lower doses are used due to increased sensitivity to side effects. Monitor for hyponatremia."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "subcategories": [
+      {
+        "name": "Maintenance Therapy",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Tiotropium",
+                "dosage": "18 mcg once daily via inhaler.",
+                "notes": "A long-acting muscarinic antagonist (LAMA). First-line for symptomatic patients. Helps reduce exacerbations."
+              },
+              {
+                "name": "Formoterol/Budesonide",
+                "dosage": "2 puffs twice daily.",
+                "notes": "A combination of a long-acting beta-agonist (LABA) and an inhaled corticosteroid (ICS). Used for patients with frequent exacerbations."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Tiotropium",
+                "dosage": "18 mcg once daily via inhaler.",
+                "notes": "Can cause dry mouth. Ensure proper inhaler technique. It is generally safe and well-tolerated."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Thrombosis",
+    "subcategories": [
+      {
+        "name": "Anticoagulation",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Warfarin",
+                "dosage": "Individualized dosage based on INR monitoring.",
+                "notes": "A vitamin K antagonist. Requires frequent blood tests. Many drug and food interactions."
+              },
+              {
+                "name": "Dabigatran",
+                "dosage": "150 mg twice daily.",
+                "notes": "A direct oral anticoagulant (DOAC). Does not require routine monitoring but has specific cautions regarding renal function."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Apixaban",
+                "dosage": "5 mg twice daily, or 2.5 mg twice daily for specific criteria.",
+                "notes": "A DOAC. Generally preferred in older patients due to a lower risk of bleeding compared to warfarin and other DOACs."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Gastroesophageal Reflux Disease (GERD)",
+    "subcategories": [
+      {
+        "name": "Symptomatic Treatment",
+        "age_groups": [
+          {
+            "group": "Child",
+            "age_range": "2-12 years",
+            "medicines": [
+              {
+                "name": "Ranitidine (syrup)",
+                "dosage": "2-4 mg/kg twice daily.",
+                "notes": "An H2-receptor antagonist. Used for symptomatic relief. Should be taken 30 minutes before food."
+              }
+            ]
+          },
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Omeprazole",
+                "dosage": "20 mg once daily for 4-8 weeks.",
+                "notes": "A PPI. Highly effective for healing esophagitis. Long-term use has potential side effects like osteoporosis."
+              },
+              {
+                "name": "Antacids",
+                "dosage": "10-20 ml as needed.",
+                "notes": "Provides temporary relief for heartburn. May interfere with the absorption of other medications."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Omeprazole",
+                "dosage": "10-20 mg once daily.",
+                "notes": "The lowest effective dose should be used. Monitor for potential drug interactions and nutrient deficiencies."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Insomnia",
+    "subcategories": [
+      {
+        "name": "Short-term Management",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Zolpidem",
+                "dosage": "5-10 mg at bedtime.",
+                "notes": "A non-benzodiazepine hypnotic. Use for short periods (2-4 weeks) due to risk of dependence."
+              },
+              {
+                "name": "Promethazine",
+                "dosage": "25-50 mg at bedtime.",
+                "notes": "An antihistamine with sedative properties. Not recommended for long-term use due to anticholinergic side effects."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Zolpidem",
+                "dosage": "5 mg at bedtime.",
+                "notes": "Lower doses are used due to increased sensitivity and risk of falls. Avoid if possible."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Benign Prostatic Hyperplasia (BPH)",
+    "subcategories": [
+      {
+        "name": "Symptomatic Treatment",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "40-65 years",
+            "medicines": [
+              {
+                "name": "Tamsulosin",
+                "dosage": "0.4 mg once daily.",
+                "notes": "An alpha-1 blocker. Relaxes muscles in the prostate and bladder neck to improve urine flow. May cause dizziness."
+              },
+              {
+                "name": "Finasteride",
+                "dosage": "5 mg once daily.",
+                "notes": "A 5-alpha reductase inhibitor. Shrinks the prostate over several months. Can cause sexual side effects."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Tamsulosin",
+                "dosage": "0.4 mg once daily.",
+                "notes": "The preferred agent for rapid symptomatic relief. Monitor for orthostatic hypotension, which is more common in this age group."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Osteoporosis",
+    "subcategories": [
+      {
+        "name": "Postmenopausal Osteoporosis",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "50-65 years",
+            "medicines": [
+              {
+                "name": "Alendronate",
+                "dosage": "70 mg once weekly.",
+                "notes": "A bisphosphonate. Take with a full glass of water on an empty stomach, and remain upright for at least 30 minutes to prevent esophageal irritation."
+              }
+            ]
+          },
+          {
+            "group": "Older",
+            "age_range": "65+ years",
+            "medicines": [
+              {
+                "name": "Alendronate",
+                "dosage": "70 mg once weekly.",
+                "notes": "Long-term use may have risks of atypical femoral fractures. Periodically re-evaluate the need for continued therapy."
+              },
+              {
+                "name": "Calcium and Vitamin D3",
+                "dosage": "Calcium 1000-1200 mg and Vitamin D3 800 IU daily.",
+                "notes": "Essential for bone health. Often used as an adjunct to other osteoporosis treatments."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "subcategories": [
+      {
+        "name": "Disease-Modifying Antirheumatic Drugs (DMARDs)",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "20-65 years",
+            "medicines": [
+              {
+                "name": "Methotrexate",
+                "dosage": "7.5-15 mg once weekly.",
+                "notes": "First-line DMARD. Take with folic acid to reduce side effects like mouth ulcers and GI distress. Monitor liver function and blood counts."
+              },
+              {
+                "name": "Sulfasalazine",
+                "dosage": "500 mg twice daily, increasing to 1 g twice daily.",
+                "notes": "Can be used as monotherapy or in combination. May cause gastrointestinal upset or skin rashes."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Amoebiasis",
+    "subcategories": [
+      {
+        "name": "Intestinal Amoebiasis",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Metronidazole",
+                "dosage": "400 to 800 mg three times a day for 5 to 7 days.",
+                "notes": "May cause nausea, unpleasant metallic taste, and darkening of urine. Avoid alcohol during treatment."
+              },
+              {
+                "name": "Tinidazole",
+                "dosage": "1.5-2 g daily as a single dose for 3-6 days.",
+                "notes": "Contraindicated in the first trimester of pregnancy. Adverse effects are similar to metronidazole."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "< 18 years",
+            "medicines": [
+              {
+                "name": "Metronidazole",
+                "dosage": "35 to 50 mg/kg body weight daily in three divided doses.",
+                "notes": "Contraindicated in the first trimester of pregnancy. Avoid alcohol."
+              },
+              {
+                "name": "Tinidazole",
+                "dosage": "30-50 mg/kg daily as a single dose for 3 days.",
+                "notes": "Contraindicated in the first trimester of pregnancy. Adverse effects are similar to metronidazole."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Asymptomatic Carriers",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Diloxanide Furoate",
+                "dosage": "500 mg every 8 h for 10 days.",
+                "notes": "Treatment is successful if stools are free of E. histolytica for one month. Defer treatment during the first trimester of pregnancy."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "< 18 years",
+            "medicines": [
+              {
+                "name": "Diloxanide Furoate",
+                "dosage": "20 mg/kg body weight daily in three divided doses for 10 days.",
+                "notes": "Treatment is successful if stools are free of E. histolytica for one month. Defer treatment during the first trimester of pregnancy."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Giardiasis",
+    "subcategories": [
+      {
+        "name": "Giardiasis",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Tinidazole",
+                "dosage": "2 g as a single dose.",
+                "notes": "Highly effective. Patients and sexual partners should be treated concurrently. Contraindicated in the first trimester of pregnancy."
+              },
+              {
+                "name": "Metronidazole",
+                "dosage": "200 mg three times a day for 7 to 10 days.",
+                "notes": "Highly effective. Patients and sexual partners should be treated concurrently. Avoid alcohol."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "< 18 years",
+            "medicines": [
+              {
+                "name": "Tinidazole",
+                "dosage": "50 to 75 mg/kg as a single dose.",
+                "notes": "Highly effective. Patients and sexual partners should be treated concurrently. Contraindicated in the first trimester of pregnancy."
+              },
+              {
+                "name": "Metronidazole",
+                "dosage": "10 to 15 mg/kg body weight daily.",
+                "notes": "Highly effective. Patients and sexual partners should be treated concurrently. Avoid alcohol."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Alzheimer's Disease",
+    "subcategories": [
+      {
+        "name": "Mild to Moderate Alzheimer's Disease",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Donepezil",
+                "dosage": "Initially 5 mg daily in the evening. If needed, increase to 10 mg once daily after 4-6 weeks.",
+                "notes": "Not recommended for children. Use with caution in patients with asthma, COPD, arrhythmias, or peptic ulcers."
+              },
+              {
+                "name": "Galantamine",
+                "dosage": "4 mg twice daily with meals. Max dose is 12 mg twice daily.",
+                "notes": "Not recommended for children or lactating mothers. Use with caution in patients with asthma or epilepsy."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Moderate to Severe Alzheimer's Disease",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Memantine",
+                "dosage": "5 mg once daily, with a maximum dose of 20 mg/day.",
+                "notes": "Use with caution in patients with seizure disorders. Not recommended for children or lactating mothers."
+              },
+              {
+                "name": "Rivastigmine",
+                "dosage": "Initially 1.5 mg twice daily. Max dose is 6 mg twice daily.",
+                "notes": "Not recommended for children or lactating mothers. Smaller patches may be associated with fewer side effects."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Parkinsonism",
+    "subcategories": [
+      {
+        "name": "Idiopathic Parkinsonism",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Levodopa + Carbidopa",
+                "dosage": "Initially 100 mg (Levodopa) with 10 mg (Carbidopa) twice daily, increased by 100 mg every few days to a maximum of 1.5g daily. Take after meals.",
+                "notes": "Avoid abrupt withdrawal. Close monitoring of hepatic, haematological, psychiatric, and cardiovascular function is required. Can cause nausea, vomiting, postural hypotension, and vivid dreams."
+              },
+              {
+                "name": "Bromocriptine",
+                "dosage": "Initially 1-1.25 mg at night, increasing gradually to a usual range of 10 to 40 mg daily. Take with food.",
+                "notes": "Not recommended for children under 15 years. Monitor blood pressure carefully. May cause nausea, constipation, and headache."
+              },
+              {
+                "name": "Trihexyphenidyl (Benzhexol)",
+                "dosage": "Initially 1 mg daily, increased gradually; usual maintenance dose 5 to 15 mg daily in 3 to 4 divided doses (max. 20 mg daily).",
+                "notes": "Use with caution in elderly. May cause dry mouth, blurred vision, dizziness, and confusion."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Anaphylaxis",
+    "subcategories": [
+      {
+        "name": "Anaphylactic Shock",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Adrenaline (Epinephrine)",
+                "dosage": "500 µg (0.5 ml) by intramuscular injection. Repeat if necessary at 5-min intervals.",
+                "notes": "First-line treatment. Should be administered with extreme care, especially intravenously. Monitor for tachycardia and hypertension."
+              },
+              {
+                "name": "Chlorpheniramine",
+                "dosage": "10-20 mg by intravenous injection over 1 min. Repeat if required (max. total dose 40 mg in 24h).",
+                "notes": "Adjunctive treatment to reduce severity and duration of symptoms. May cause drowsiness, hypotension, and headache."
+              },
+              {
+                "name": "Hydrocortisone",
+                "dosage": "100-300 mg by slow intravenous injection.",
+                "notes": "Onset of action is delayed, but it helps prevent later deterioration. Adverse effects are associated with long-term use."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "< 18 years",
+            "medicines": [
+              {
+                "name": "Adrenaline (Epinephrine)",
+                "dosage": "Infant (<6 months): 50 µg (0.05 ml) IM. Child (6 months-6 years): 120 µg (0.12 ml) IM. Child (6-12 years): 250 µg (0.25 ml) IM. Repeated if necessary at 5-min intervals.",
+                "notes": "First-line treatment. Should be administered with extreme care, especially intravenously. Monitor for tachycardia and hypertension."
+              },
+              {
+                "name": "Chlorpheniramine",
+                "dosage": "Child (<1 year): 250 µg/kg IV. Child (1-5 years): 2.5-5 mg IV. Child (6-12 years): 5-10 mg IV.",
+                "notes": "Adjunctive treatment to reduce severity and duration of symptoms. May cause drowsiness, hypotension, and headache."
+              },
+              {
+                "name": "Hydrocortisone",
+                "dosage": "Child (<1 year): 25 mg slow IV. Child (1-5 years): 50 mg slow IV. Child (6-12 years): 100 mg slow IV.",
+                "notes": "Onset of action is delayed, but it helps prevent later deterioration. Adverse effects are associated with long-term use."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Dermatophytosis",
+    "subcategories": [
+      {
+        "name": "Ringworm Infections",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Griseofulvin",
+                "dosage": "500 mg once a day or in divided doses. In severe infections, the dose may be doubled. Administer with meals. Long-term use is limited by toxicity.",
+                "notes": "May impair ability to perform skilled tasks like driving. Avoid exposure to sunlight or artificial light. Can cause headache, nausea, and rashes."
+              },
+              {
+                "name": "Tolnaftate",
+                "dosage": "Apply sufficient quantity gently to affected area 2-3 times daily.",
+                "notes": "Avoid contact with eyes and mucous membranes. Discontinue if irritation occurs."
+              },
+              {
+                "name": "Ketoconazole",
+                "dosage": "200 to 400 mg daily once, preferably after food. Local application is 3 to 4 times daily.",
+                "notes": "Potentially life-threatening hepatotoxicity is possible with long-term use. Monitor liver function before and during treatment."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "< 18 years",
+            "medicines": [
+              {
+                "name": "Griseofulvin",
+                "dosage": "Under 50 kg: 10 mg/kg body weight once daily or in divided doses with meals.",
+                "notes": "May impair ability to perform skilled tasks like driving. Avoid exposure to sunlight or artificial light. Can cause headache, nausea, and rashes."
+              },
+              {
+                "name": "Ketoconazole",
+                "dosage": "(Over 2 years) 3.3 to 6.6 mg/kg body weight once daily after food.",
+                "notes": "Potentially life-threatening hepatotoxicity is possible with long-term use. Monitor liver function before and during treatment."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Scabies",
+    "subcategories": [
+      {
+        "name": "Scabies",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Benzyl Benzoate",
+                "dosage": "Apply from neck down at night for 2 nights; wash off after at least 24 h.",
+                "notes": "Too irritant for use on children. Do not use on inflamed or broken skin. Avoid contact with eyes."
+              },
+              {
+                "name": "Gamma Benzene Hexachloride",
+                "dosage": "Apply lotion in a thin layer below the neck up to the sole of the feet. Leave it for 8-12 hours and then bathe.",
+                "notes": "Contraindicated in children below 2 years and pregnant/lactating women. Not to be used on inflamed or broken skin."
+              },
+              {
+                "name": "Ivermectin",
+                "dosage": "150-200 μg/kg of body weight as a single oral dose. A second dose may be required 7-10 days later.",
+                "notes": "Highly effective. Contraindicated in children below 5 years old. Can cause nausea, vomiting, rash, and dizziness."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "< 18 years",
+            "medicines": [
+              {
+                "name": "Ivermectin",
+                "dosage": "150-200 μg/kg of body weight as a single oral dose. A second dose may be required 7-10 days later.",
+                "notes": "Highly effective. Contraindicated in children below 5 years old. Can cause nausea, vomiting, rash, and dizziness."
+              },
+              {
+                "name": "Gamma Benzene Hexachloride",
+                "dosage": "Not for children below 2 years of age.",
+                "notes": "Contraindicated in children below 2 years and pregnant/lactating women. Not to be used on inflamed or broken skin."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Schistosomiasis",
+    "subcategories": [
+      {
+        "name": "Schistosomiasis",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Praziquantel",
+                "dosage": "40 mg/kg body weight in two divided doses 4 to 6 h apart in one day.",
+                "notes": "Effective in a single dose against all species of the parasite. Extremely well tolerated. May cause abdominal pain, dizziness, and headache."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Leishmaniasis",
+    "subcategories": [
+      {
+        "name": "Visceral Leishmaniasis (Kala-azar)",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Miltefosine",
+                "dosage": "100 mg/day, twice a day, after meals for 28 days for patients >25 kg.",
+                "notes": "Used as directly observed therapy. Contraindicated in children below 2 years, patients with HIV, newborns, and during pregnancy/lactation."
+              },
+              {
+                "name": "Sodium Stibogluconate",
+                "dosage": "20 mg/kg/day via slow intravenous infusion.",
+                "notes": "Provide protein-rich diet. Monitor cardiac, renal, and hepatic function. Contraindicated in severe kidney disorders and lactation."
+              },
+              {
+                "name": "Pentamidine",
+                "dosage": "3 to 4 mg/kg body weight on alternate days up to a maximum of 10 injections. The course may be repeated if necessary.",
+                "notes": "Contraindicated in severe renal impairment. Monitor blood pressure during treatment due to risk of hypotension."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "2-11 years",
+            "medicines": [
+              {
+                "name": "Miltefosine",
+                "dosage": "2.5 mg/kg daily after meals for 28 days, i.e., 50 mg once daily.",
+                "notes": "Used as directly observed therapy. Contraindicated in children below 2 years, patients with HIV, newborns, and during pregnancy/lactation."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Meningitis",
+    "subcategories": [
+      {
+        "name": "Septicaemia and Meningitis",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Cefotaxime",
+                "dosage": "2g IV, every 6-8 hours for 14-28 days.",
+                "notes": "Contraindicated in patients with renal disease or hypersensitivity to cephalosporins. Monitor for seizures, headache, and jaundice."
+              },
+              {
+                "name": "Ceftriaxone",
+                "dosage": "4g initially once daily for 10 days, or until 72 hours after fever disappears.",
+                "notes": "Contraindicated in neonates with jaundice. Monitor for diarrhea, nausea, and vomiting."
+              },
+              {
+                "name": "Vancomycin",
+                "dosage": "1 to 1.5g every 12 h.",
+                "notes": "Used for methicillin-resistant staphylococcal meningitis. Avoid rapid infusion. Monitor for ototoxicity and nephrotoxicity."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "< 18 years",
+            "medicines": [
+              {
+                "name": "Cefotaxime",
+                "dosage": "100-150 mg/kg daily in 2-4 divided doses, increased to 200 mg/kg daily in very severe infections.",
+                "notes": "Contraindicated in patients with renal disease or hypersensitivity to cephalosporins. Monitor for seizures, headache, and jaundice."
+              },
+              {
+                "name": "Ceftriaxone",
+                "dosage": "75 to 100 mg/kg body weight for 7 to 9 days.",
+                "notes": "Contraindicated in neonates with jaundice. Monitor for diarrhea, nausea, and vomiting."
+              },
+              {
+                "name": "Vancomycin",
+                "dosage": "Over 1 month: 15 mg/kg body weight every 8 h (max. 2g daily).",
+                "notes": "Used for methicillin-resistant staphylococcal meningitis. Avoid rapid infusion. Monitor for ototoxicity and nephrotoxicity."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Fungal Infections",
+    "subcategories": [
+      {
+        "name": "Systemic Fungal Infection",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Amphotericin B",
+                "dosage": "250 μg/kg body weight daily, increase gradually to 1 mg/kg body weight if tolerated. Max 1.5 mg/kg daily or on alternate days.",
+                "notes": "Administered parenterally. Can cause nephrotoxicity. A test dose is advisable before the first infusion due to risk of anaphylaxis."
+              },
+              {
+                "name": "Fluconazole",
+                "dosage": "Systemic loading dose of 400 mg on first day and thereafter 200 to 400 mg once daily for at least 28 days.",
+                "notes": "Used for systemic mycosis and candidiasis. Monitor liver function and discontinue if hepatic disease symptoms appear."
+              },
+              {
+                "name": "Flucytosine",
+                "dosage": "200 mg/kg body weight daily in four divided doses over 20-40 minutes via intravenous infusion.",
+                "notes": "Adjunct to Amphotericin B. Myelosuppressive. Monitor liver and kidney function and blood counts."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ringworm",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Griseofulvin",
+                "dosage": "500 mg once daily or in divided doses. Administer with meals.",
+                "notes": "Fungistatic antibiotic. Close attention to hygiene is important. May cause headache and nausea."
+              },
+              {
+                "name": "Ketoconazole",
+                "dosage": "200-400 mg daily once, preferably after food.",
+                "notes": "Risk of potentially fatal hepatotoxicity. Monitor liver function before and during treatment. May cause nausea and vomiting."
+              },
+              {
+                "name": "Tolnaftate",
+                "dosage": "Rub sufficient quantity gently into affected area 2-3 times daily.",
+                "notes": "Topical treatment. Avoid contact with eyes and mucous membranes."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "< 18 years",
+            "medicines": [
+              {
+                "name": "Griseofulvin",
+                "dosage": "Under 50 kg: 10 mg/kg body weight once daily or divided doses with meals.",
+                "notes": "Fungistatic antibiotic. Close attention to hygiene is important. May cause headache and nausea."
+              },
+              {
+                "name": "Ketoconazole",
+                "dosage": "Over 2 years: 3.3-6.6 mg/kg body weight once daily after food.",
+                "notes": "Risk of potentially fatal hepatotoxicity. Monitor liver function before and during treatment. May cause nausea and vomiting."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Ocular Disorders",
+    "subcategories": [
+      {
+        "name": "Glaucoma",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Betaxolol",
+                "dosage": "1-2 drops, twice daily in the affected eye.",
+                "notes": "Systemic absorption can follow topical application. Contraindicated in patients with bradycardia, heart block, or uncontrolled heart failure. Avoid in asthma."
+              },
+              {
+                "name": "Pilocarpine",
+                "dosage": "1 drop (2% or 4%) up to 4 times daily for chronic glaucoma. For acute glaucoma, 1 drop (2%) every 10 min for 30-60 min.",
+                "notes": "Causes difficulty with dark adaptation and may cause accommodation spasm. Do not operate machinery or drive until vision is clear."
+              },
+              {
+                "name": "Latanoprost",
+                "dosage": "One drop once daily in the evening.",
+                "notes": "May cause iris pigmentation and darkening/thickening of eyelashes."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Myasthenia Gravis",
+    "subcategories": [
+      {
+        "name": "Myasthenia Gravis",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Pyridostigmine",
+                "dosage": "Initially 60 mg, 3 to 4 times a day, increasing gradually to a maximum of 120 mg every 3 to 4 hours. Daily dose may be up to 1200 mg.",
+                "notes": "Avoid concurrent use of drugs that may cause neuromuscular weakness. Can cause nausea, vomiting, abdominal cramps, and diarrhea."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+{
+    "disease": "Inflammatory Bowel Disease",
+    "subcategories": [
+      {
+        "name": "Ulcerative Colitis",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Sulfasalazine",
+                "dosage": "Maintenance dose: 2 g daily in divided doses. Acute attack: 1-2 g 4 times a day.",
+                "notes": "Contraindicated in patients with hypersensitivity to sulfonamides. May cause nausea, vomiting, headache, and skin rashes."
+              },
+              {
+                "name": "Mesalazine",
+                "dosage": "Maintenance dose: 2.4 g daily in divided doses. Acute attack: 4 g daily in divided doses.",
+                "notes": "Rectal formulations (enema, suppositories) are available for distal colitis. Generally well-tolerated with fewer side effects than sulfasalazine."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Urticaria",
+    "subcategories": [
+      {
+        "name": "Acute Urticaria",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Fexofenadine",
+                "dosage": "180 mg once daily.",
+                "notes": "A non-sedating antihistamine. Does not cause drowsiness. Avoid fruit juices as they may reduce bioavailability."
+              },
+              {
+                "name": "Cetirizine",
+                "dosage": "10 mg once daily, adjusted based on response.",
+                "notes": "Less sedating than first-generation antihistamines. May cause mild drowsiness. Dose should be reduced in renal impairment."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Nutritional Deficiency",
+    "subcategories": [
+      {
+        "name": "Vitamin B12 Deficiency",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Cyanocobalamin",
+                "dosage": "Initial dose: 1 mg intramuscularly every 2 days for 1-2 weeks. Maintenance dose: 1 mg every 3 months.",
+                "notes": "Intramuscular injection is preferred for initial correction, especially in malabsorption syndromes. Oral preparations are used for maintenance in some cases."
+              },
+              {
+                "name": "Methylcobalamin",
+                "dosage": "1000 mcg daily as an oral supplement or as per physician's advice.",
+                "notes": "Oral therapy is effective for many patients with dietary deficiency. Useful for treating diabetic neuropathy."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Acute Myeloid Leukemia",
+    "subcategories": [
+      {
+        "name": "Acute Myeloid Leukemia (AML)",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Cytarabine",
+                "dosage": "Induction: 100 mg/m2 by continuous IV infusion for 7 days. Consolidation: 100-200 mg/m2 for 5 days.",
+                "notes": "A chemotherapy drug. Causes bone marrow suppression. Monitor for fever, infections, and bleeding. Can cause nausea, vomiting, and mucositis."
+              },
+              {
+                "name": "Daunorubicin",
+                "dosage": "45 mg/m2 IV on days 1, 2, and 3 during induction.",
+                "notes": "An anthracycline antibiotic. Can cause cardiotoxicity. Monitor cardiac function before and during treatment. May cause red discoloration of urine."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Candidiasis",
+    "subcategories": [
+      {
+        "name": "Oral Candidiasis (Thrush)",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Nystatin",
+                "dosage": "Lozenges or oral suspension: 500,000 units 4 times a day.",
+                "notes": "Topical treatment. Swish in the mouth for as long as possible before swallowing. Very safe and not absorbed systemically."
+              },
+              {
+                "name": "Fluconazole",
+                "dosage": "50 mg once daily for 7-14 days.",
+                "notes": "Used for more severe or persistent infections. Monitor for liver enzyme abnormalities. Avoid in pregnancy."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "0-17 years",
+            "medicines": [
+              {
+                "name": "Nystatin",
+                "dosage": "Oral suspension: 100,000 units 4 times a day, applied to the oral mucosa after feeds.",
+                "notes": "Topical treatment for infants. Swish in the mouth for as long as possible before swallowing. Very safe and not absorbed systemically."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Cysticercosis",
+    "subcategories": [
+      {
+        "name": "Neurocysticercosis",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Albendazole",
+                "dosage": "15 mg/kg daily in two divided doses for 8 to 30 days. Should be taken with fatty meals for improved absorption.",
+                "notes": "Treatment should be accompanied by corticosteroids to manage inflammation caused by parasite death. Monitor liver function during treatment."
+              },
+              {
+                "name": "Praziquantel",
+                "dosage": "50 mg/kg daily in three divided doses for 15 days. Must be given with dexamethasone to decrease inflammation.",
+                "notes": "Used for cerebral cysts. Contraindicated in ocular cysticercosis due to risk of retinal damage. May cause headache and dizziness."
+              }
+            ]
+          },
+          {
+            "group": "Child",
+            "age_range": "0-17 years",
+            "medicines": [
+              {
+                "name": "Albendazole",
+                "dosage": "15 mg/kg daily in two divided doses for 8 to 30 days. Should be taken with fatty meals for improved absorption.",
+                "notes": "Treatment should be accompanied by corticosteroids to manage inflammation caused by parasite death. Monitor liver function during treatment."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Gastrointestinal Disorders",
+    "subcategories": [
+      {
+        "name": "Irritable Bowel Syndrome (IBS)",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18+ years",
+            "medicines": [
+              {
+                "name": "Mebeverine",
+                "dosage": "135 mg 3 times a day, preferably 20 minutes before meals.",
+                "notes": "A smooth muscle relaxant that relieves abdominal cramps and discomfort. May cause headache, dizziness, and constipation."
+              },
+              {
+                "name": "Dicyclomine",
+                "dosage": "10 mg 3 times a day, increased if necessary to 20 mg. Should be taken 15 minutes before meals.",
+                "notes": "An antispasmodic. Not recommended for children under 6 months. May cause dry mouth, blurred vision, and dizziness."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "disease": "Contraception",
+    "subcategories": [
+      {
+        "name": "Oral Contraception",
+        "age_groups": [
+          {
+            "group": "Adult",
+            "age_range": "18-50 years",
+            "medicines": [
+              {
+                "name": "Ethinylestradiol + Levonorgestrel",
+                "dosage": "One tablet daily for 21 days, followed by a 7-day tablet-free interval.",
+                "notes": "Combined oral contraceptive pill (COC). Contraindicated in history of thromboembolic disorders, breast cancer, and severe liver disease. May cause nausea, headache, and breast tenderness."
+              },
+              {
+                "name": "Levonorgestrel",
+                "dosage": "One tablet daily without interruption.",
+                "notes": "Progestogen-only pill (POP). May be used when estrogen is contraindicated. Causes irregular menstrual bleeding and is less effective than COCs."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+
+
+
+
+]
+
+
+
+
+
+
+MEDICINES : 
+[
+  {
+    "id": 1,
+    "name": "Adrenaline (Epinephrine)",
+    "form": "injection",
+    "strength": "500",
+    "unit": "µg"
+  },
+  {
+    "id": 2,
+    "name": "Albendazole",
+    "form": "tablet",
+    "strength": "15",
+    "unit": "mg"
+  },
+  {
+    "id": 3,
+    "name": "Alendronate",
+    "form": "tablet",
+    "strength": "70",
+    "unit": "mg"
+  },
+  {
+    "id": 4,
+    "name": "Allopurinol",
+    "form": "tablet",
+    "strength": "100",
+    "unit": "mg"
+  },
+  {
+    "id": 5,
+    "name": "Alprazolam",
+    "form": "tablet",
+    "strength": "0.25",
+    "unit": "mg"
+  },
+  {
+    "id": 6,
+    "name": "Amitriptyline",
+    "form": "tablet",
+    "strength": "10",
+    "unit": "mg"
+  },
+  {
+    "id": 7,
+    "name": "Amlodipine",
+    "form": "tablet",
+    "strength": "5",
+    "unit": "mg"
+  },
+  {
+    "id": 8,
+    "name": "Amoxicillin",
+    "form": "tablet",
+    "strength": "500",
+    "unit": "mg"
+  },
+  {
+    "id": 9,
+    "name": "Amphotericin B",
+    "form": "injection",
+    "strength": "1",
+    "unit": "mg"
+  },
+  {
+    "id": 10,
+    "name": "Antacids",
+    "form": "syrup",
+    "strength": "10",
+    "unit": "ml"
+  },
+  {
+    "id": 11,
+    "name": "Apixaban",
+    "form": "tablet",
+    "strength": "5",
+    "unit": "mg"
+  },
+  {
+    "id": 12,
+    "name": "Artemether/Lumefantrine",
+    "form": "tablet",
+    "strength": "4",
+    "unit": ""
+  },
+  {
+    "id": 13,
+    "name": "Atorvastatin",
+    "form": "tablet",
+    "strength": "10",
+    "unit": "mg"
+  },
+  {
+    "id": 14,
+    "name": "Azithromycin",
+    "form": "tablet",
+    "strength": "500",
+    "unit": "mg"
+  },
+  {
+    "id": 15,
+    "name": "Benzyl Benzoate",
+    "form": "lotion",
+    "strength": "",
+    "unit": ""
+  },
+  {
+    "id": 16,
+    "name": "Betaxolol",
+    "form": "drops",
+    "strength": "1",
+    "unit": ""
+  },
+  {
+    "id": 17,
+    "name": "Bromocriptine",
+    "form": "tablet",
+    "strength": "1",
+    "unit": "mg"
+  },
+  {
+    "id": 18,
+    "name": "Budesonide",
+    "form": "inhaler",
+    "strength": "100",
+    "unit": "mcg"
+  },
+  {
+    "id": 19,
+    "name": "Buspirone",
+    "form": "tablet",
+    "strength": "5",
+    "unit": "mg"
+  },
+  {
+    "id": 20,
+    "name": "Calcium and Vitamin D3",
+    "form": "tablet",
+    "strength": "1000",
+    "unit": "mg"
+  },
+  {
+    "id": 21,
+    "name": "Carbamazepine",
+    "form": "tablet",
+    "strength": "200",
+    "unit": "mg"
+  },
+  {
+    "id": 22,
+    "name": "Cefotaxime",
+    "form": "injection",
+    "strength": "2",
+    "unit": "g"
+  },
+  {
+    "id": 23,
+    "name": "Ceftriaxone",
+    "form": "injection",
+    "strength": "4",
+    "unit": "g"
+  },
+  {
+    "id": 24,
+    "name": "Cetirizine",
+    "form": "tablet",
+    "strength": "5",
+    "unit": "mg"
+  },
+  {
+    "id": 25,
+    "name": "Chloroquine",
+    "form": "tablet",
+    "strength": "600",
+    "unit": "mg"
+  },
+  {
+    "id": 26,
+    "name": "Chlorpheniramine",
+    "form": "injection",
+    "strength": "10",
+    "unit": "mg"
+  },
+  {
+    "id": 27,
+    "name": "Ciprofloxacin",
+    "form": "tablet",
+    "strength": "500",
+    "unit": "mg"
+  },
+  {
+    "id": 28,
+    "name": "Colchicine",
+    "form": "tablet",
+    "strength": "1",
+    "unit": "mg"
+  },
+  {
+    "id": 29,
+    "name": "Cyanocobalamin",
+    "form": "injection",
+    "strength": "1",
+    "unit": "mg"
+  },
+  {
+    "id": 30,
+    "name": "Cytarabine",
+    "form": "injection",
+    "strength": "100",
+    "unit": "mg"
+  },
+  {
+    "id": 31,
+    "name": "Dabigatran",
+    "form": "capsule",
+    "strength": "150",
+    "unit": "mg"
+  },
+  {
+    "id": 32,
+    "name": "Dapagliflozin",
+    "form": "tablet",
+    "strength": "10",
+    "unit": "mg"
+  },
+  {
+    "id": 33,
+    "name": "Daunorubicin",
+    "form": "injection",
+    "strength": "45",
+    "unit": "mg"
+  },
+  {
+    "id": 34,
+    "name": "Diazepam",
+    "form": "tablet",
+    "strength": "2",
+    "unit": "mg"
+  },
+  {
+    "id": 35,
+    "name": "Dicyclomine",
+    "form": "tablet",
+    "strength": "10",
+    "unit": "mg"
+  },
+  {
+    "id": 36,
+    "name": "Diclofenac",
+    "form": "tablet",
+    "strength": "50",
+    "unit": "mg"
+  },
+  {
+    "id": 37,
+    "name": "Diloxanide Furoate",
+    "form": "tablet",
+    "strength": "500",
+    "unit": "mg"
+  },
+  {
+    "id": 38,
+    "name": "Donepezil",
+    "form": "tablet",
+    "strength": "5",
+    "unit": "mg"
+  },
+  {
+    "id": 39,
+    "name": "Enalapril",
+    "form": "tablet",
+    "strength": "2.5",
+    "unit": "mg"
+  },
+  {
+    "id": 40,
+    "name": "Escitalopram",
+    "form": "tablet",
+    "strength": "5",
+    "unit": "mg"
+  },
+  {
+    "id": 41,
+    "name": "Ethinylestradiol + Levonorgestrel",
+    "form": "tablet",
+    "strength": "",
+    "unit": ""
+  },
+  {
+    "id": 42,
+    "name": "Ethosuximide",
+    "form": "capsule",
+    "strength": "10",
+    "unit": "mg"
+  },
+  {
+    "id": 43,
+    "name": "Febuxostat",
+    "form": "tablet",
+    "strength": "40",
+    "unit": "mg"
+  },
+  {
+    "id": 44,
+    "name": "Ferrous Sulphate",
+    "form": "tablet",
+    "strength": "200",
+    "unit": "mg"
+  },
+  {
+    "id": 45,
+    "name": "Fexofenadine",
+    "form": "tablet",
+    "strength": "120",
+    "unit": "mg"
+  },
+  {
+    "id": 46,
+    "name": "Finasteride",
+    "form": "tablet",
+    "strength": "5",
+    "unit": "mg"
+  },
+  {
+    "id": 47,
+    "name": "Fluconazole",
+    "form": "tablet",
+    "strength": "50",
+    "unit": "mg"
+  },
+  {
+    "id": 48,
+    "name": "Flucytosine",
+    "form": "injection",
+    "strength": "200",
+    "unit": "mg"
+  },
+  {
+    "id": 49,
+    "name": "Fluoxetine",
+    "form": "tablet",
+    "strength": "20",
+    "unit": "mg"
+  },
+  {
+    "id": 50,
+    "name": "Fluticasone",
+    "form": "spray",
+    "strength": "1",
+    "unit": ""
+  },
+  {
+    "id": 51,
+    "name": "Fluticasone/Salmeterol",
+    "form": "inhaler",
+    "strength": "250",
+    "unit": "mcg"
+  },
+  {
+    "id": 52,
+    "name": "Formoterol/Budesonide",
+    "form": "inhaler",
+    "strength": "2",
+    "unit": ""
+  },
+  {
+    "id": 53,
+    "name": "Fosfomycin",
+    "form": "tablet",
+    "strength": "3",
+    "unit": "g"
+  },
+  {
+    "id": 54,
+    "name": "Galantamine",
+    "form": "tablet",
+    "strength": "4",
+    "unit": "mg"
+  },
+  {
+    "id": 55,
+    "name": "Gamma Benzene Hexachloride",
+    "form": "lotion",
+    "strength": "",
+    "unit": ""
+  },
+  {
+    "id": 56,
+    "name": "Gliclazide",
+    "form": "tablet",
+    "strength": "40",
+    "unit": "mg"
+  },
+  {
+    "id": 57,
+    "name": "Griseofulvin",
+    "form": "tablet",
+    "strength": "500",
+    "unit": "mg"
+  },
+  {
+    "id": 58,
+    "name": "Hydrocortisone",
+    "form": "injection",
+    "strength": "100",
+    "unit": "mg"
+  },
+  {
+    "id": 59,
+    "name": "Hydrochlorothiazide",
+    "form": "tablet",
+    "strength": "12.5",
+    "unit": "mg"
+  },
+  {
+    "id": 60,
+    "name": "Ibuprofen",
+    "form": "tablet",
+    "strength": "200",
+    "unit": "mg"
+  },
+  {
+    "id": 61,
+    "name": "Indapamide",
+    "form": "tablet",
+    "strength": "1.25",
+    "unit": "mg"
+  },
+  {
+    "id": 62,
+    "name": "Indomethacin",
+    "form": "tablet",
+    "strength": "50",
+    "unit": "mg"
+  },
+  {
+    "id": 63,
+    "name": "Insulin Glargine",
+    "form": "injection",
+    "strength": "0.2",
+    "unit": "units"
+  },
+  {
+    "id": 64,
+    "name": "Insulin Isophane (NPH)",
+    "form": "injection",
+    "strength": "0.2",
+    "unit": "units"
+  },
+  {
+    "id": 65,
+    "name": "Ivermectin",
+    "form": "tablet",
+    "strength": "150",
+    "unit": "µg"
+  },
+  {
+    "id": 66,
+    "name": "Ketoconazole",
+    "form": "tablet",
+    "strength": "200",
+    "unit": "mg"
+  },
+  {
+    "id": 67,
+    "name": "Lamotrigine",
+    "form": "tablet",
+    "strength": "25",
+    "unit": "mg"
+  },
+  {
+    "id": 68,
+    "name": "Latanoprost",
+    "form": "drops",
+    "strength": "",
+    "unit": ""
+  },
+  {
+    "id": 69,
+    "name": "Levodopa + Carbidopa",
+    "form": "tablet",
+    "strength": "100",
+    "unit": "mg"
+  },
+  {
+    "id": 70,
+    "name": "Levonorgestrel",
+    "form": "tablet",
+    "strength": "",
+    "unit": ""
+  },
+  {
+    "id": 71,
+    "name": "Loperamide",
+    "form": "tablet",
+    "strength": "4",
+    "unit": "mg"
+  },
+  {
+    "id": 72,
+    "name": "Losartan",
+    "form": "tablet",
+    "strength": "50",
+    "unit": "mg"
+  },
+  {
+    "id": 73,
+    "name": "Mebeverine",
+    "form": "tablet",
+    "strength": "135",
+    "unit": "mg"
+  },
+  {
+    "id": 74,
+    "name": "Memantine",
+    "form": "tablet",
+    "strength": "5",
+    "unit": "mg"
+  },
+  {
+    "id": 75,
+    "name": "Mesalazine",
+    "form": "tablet",
+    "strength": "2.4",
+    "unit": "g"
+  },
+  {
+    "id": 76,
+    "name": "Metformin",
+    "form": "tablet",
+    "strength": "500",
+    "unit": "mg"
+  },
+  {
+    "id": 77,
+    "name": "Methotrexate",
+    "form": "tablet",
+    "strength": "7.5",
+    "unit": "mg"
+  },
+  {
+    "id": 78,
+    "name": "Methylcobalamin",
+    "form": "tablet",
+    "strength": "1000",
+    "unit": "mcg"
+  },
+  {
+    "id": 79,
+    "name": "Metoprolol",
+    "form": "tablet",
+    "strength": "25",
+    "unit": "mg"
+  },
+  {
+    "id": 80,
+    "name": "Metronidazole",
+    "form": "tablet",
+    "strength": "400",
+    "unit": "mg"
+  },
+  {
+    "id": 81,
+    "name": "Miltefosine",
+    "form": "capsule",
+    "strength": "100",
+    "unit": "mg"
+  },
+  {
+    "id": 82,
+    "name": "Montelukast",
+    "form": "tablet",
+    "strength": "10",
+    "unit": "mg"
+  },
+  {
+    "id": 83,
+    "name": "Nitrofurantoin",
+    "form": "capsule",
+    "strength": "100",
+    "unit": "mg"
+  },
+  {
+    "id": 84,
+    "name": "Nystatin",
+    "form": "suspension",
+    "strength": "500000",
+    "unit": "units"
+  },
+  {
+    "id": 85,
+    "name": "Omeprazole",
+    "form": "capsule",
+    "strength": "20",
+    "unit": "mg"
+  },
+  {
+    "id": 86,
+    "name": "Oral Rehydration Salts (ORS)",
+    "form": "powder",
+    "strength": "",
+    "unit": ""
+  },
+  {
+    "id": 87,
+    "name": "Paracetamol",
+    "form": "tablet",
+    "strength": "500",
+    "unit": "mg"
+  },
+  {
+    "id": 88,
+    "name": "Pentamidine",
+    "form": "injection",
+    "strength": "3",
+    "unit": "mg"
+  },
+  {
+    "id": 89,
+    "name": "Phenytoin",
+    "form": "tablet",
+    "strength": "5",
+    "unit": "mg"
+  },
+  {
+    "id": 90,
+    "name": "Pilocarpine",
+    "form": "drops",
+    "strength": "2",
+    "unit": "%"
+  },
+  {
+    "id": 91,
+    "name": "Praziquantel",
+    "form": "tablet",
+    "strength": "40",
+    "unit": "mg"
+  },
+  {
+    "id": 92,
+    "name": "Prednisolone",
+    "form": "tablet",
+    "strength": "40",
+    "unit": "mg"
+  },
+  {
+    "id": 93,
+    "name": "Primaquine",
+    "form": "tablet",
+    "strength": "15",
+    "unit": "mg"
+  },
+  {
+    "id": 94,
+    "name": "Promethazine",
+    "form": "tablet",
+    "strength": "25",
+    "unit": "mg"
+  },
+  {
+    "id": 95,
+    "name": "Pyridostigmine",
+    "form": "tablet",
+    "strength": "60",
+    "unit": "mg"
+  },
+  {
+    "id": 96,
+    "name": "Ranitidine",
+    "form": "tablet",
+    "strength": "150",
+    "unit": "mg"
+  },
+  {
+    "id": 97,
+    "name": "Rifampicin, Isoniazid, Pyrazinamide, Ethambutol (FDC)",
+    "form": "tablet",
+    "strength": "",
+    "unit": ""
+  },
+  {
+    "id": 98,
+    "name": "Rivastigmine",
+    "form": "tablet",
+    "strength": "1.5",
+    "unit": "mg"
+  },
+  {
+    "id": 99,
+    "name": "Salbutamol",
+    "form": "inhaler",
+    "strength": "100",
+    "unit": "mcg"
+  },
+  {
+    "id": 100,
+    "name": "Sertraline",
+    "form": "tablet",
+    "strength": "25",
+    "unit": "mg"
+  },
+  {
+    "id": 101,
+    "name": "Simvastatin",
+    "form": "tablet",
+    "strength": "20",
+    "unit": "mg"
+  },
+  {
+    "id": 102,
+    "name": "Sodium Stibogluconate",
+    "form": "injection",
+    "strength": "20",
+    "unit": "mg"
+  },
+  {
+    "id": 103,
+    "name": "Sodium Valproate",
+    "form": "tablet",
+    "strength": "15",
+    "unit": "mg"
+  },
+  {
+    "id": 104,
+    "name": "Sulfasalazine",
+    "form": "tablet",
+    "strength": "500",
+    "unit": "mg"
+  },
+  {
+    "id": 105,
+    "name": "Tamsulosin",
+    "form": "capsule",
+    "strength": "0.4",
+    "unit": "mg"
+  },
+  {
+    "id": 106,
+    "name": "Tinidazole",
+    "form": "tablet",
+    "strength": "2",
+    "unit": "g"
+  },
+  {
+    "id": 107,
+    "name": "Tiotropium",
+    "form": "inhaler",
+    "strength": "18",
+    "unit": "mcg"
+  },
+  {
+    "id": 108,
+    "name": "Tolnaftate",
+    "form": "cream",
+    "strength": "",
+    "unit": ""
+  },
+  {
+    "id": 109,
+    "name": "Tramadol",
+    "form": "tablet",
+    "strength": "50",
+    "unit": "mg"
+  },
+  {
+    "id": 110,
+    "name": "Trihexyphenidyl (Benzhexol)",
+    "form": "tablet",
+    "strength": "1",
+    "unit": "mg"
+  },
+  {
+    "id": 111,
+    "name": "Triple Therapy (Amoxicillin, Clarithromycin, Omeprazole)",
+    "form": "tablet",
+    "strength": "",
+    "unit": ""
+  },
+  {
+    "id": 112,
+    "name": "Vancomycin",
+    "form": "injection",
+    "strength": "1",
+    "unit": "g"
+  },
+  {
+    "id": 113,
+    "name": "Venlafaxine",
+    "form": "tablet",
+    "strength": "75",
+    "unit": "mg"
+  },
+  {
+    "id": 114,
+    "name": "Voglibose",
+    "form": "tablet",
+    "strength": "0.2",
+    "unit": "mg"
+  },
+  {
+    "id": 115,
+    "name": "Warfarin",
+    "form": "tablet",
+    "strength": "",
+    "unit": ""
+  },
+  {
+    "id": 116,
+    "name": "Zinc Sulphate",
+    "form": "tablet",
+    "strength": "10",
+    "unit": "mg"
+  },
+  {
+    "id": 117,
+    "name": "Zolpidem",
+    "form": "tablet",
+    "strength": "5",
+    "unit": "mg"
+  }
+]
