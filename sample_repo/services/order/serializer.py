@@ -1,20 +1,15 @@
 from typing import Optional
+from rest_framework import serializers
+from .models import Order
 
-class OrderSerializer:
-    def __init__(self, order: Optional[dict]) -> None:
-        # Check if order is None to prevent null pointer exception
-        if order is None:
-            raise ValueError("Order cannot be None")
-        self.order = order
+class OrderSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Order
+        fields = '__all__'
 
-    def serialize(self) -> dict:
-        # Check if order is not None before attempting to serialize
-        if self.order is not None:
-            # Assuming order has 'id' and 'customer' keys
-            return {
-                'id': self.order.get('id'),
-                'customer': self.order.get('customer')
-            }
-        else:
-            # Handle the case where order is None
-            return {}
+    def to_representation(self, instance: Optional[Order]) -> dict:
+        # Check for None to prevent null pointer exceptions
+        if instance is None:
+            raise serializers.ValidationError('Order instance is None')
+        # Call the parent method to perform the serialization
+        return super().to_representation(instance)
