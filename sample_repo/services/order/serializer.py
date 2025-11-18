@@ -1,20 +1,20 @@
 from typing import Optional
 
-class OrderSerializer:
-    def __init__(self, order: Optional[dict]) -> None:
-        # Check if order is None to prevent null pointer exception
-        if order is None:
-            raise ValueError("Order cannot be None")
-        self.order = order
+from pydantic import BaseModel
 
-    def serialize(self) -> dict:
-        # Check if order is not None before attempting to serialize
-        if self.order is not None:
-            # Assuming order has 'id' and 'customer' keys
-            return {
-                'id': self.order.get('id'),
-                'customer': self.order.get('customer')
-            }
-        else:
-            # Handle the case where order is None
-            return {}
+class Order(BaseModel):
+    id: int
+    customer_id: int
+    order_date: str
+
+    class Config:
+        orm_mode = True
+
+def serialize_order(order: Optional[Order]) -> dict:
+    # Check if order is None to prevent null pointer exception
+    if order is None:
+        # Handle the case when order is None, for example, return an empty dictionary
+        return {}
+    
+    # If order is not None, proceed with serialization
+    return order.dict()
