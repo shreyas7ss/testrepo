@@ -1,20 +1,20 @@
-from typing import Optional
-
 class OrderSerializer:
-    def __init__(self, order: Optional[dict]) -> None:
-        # Check if order is None to prevent null pointer exception
+    def serialize_order(self, order: object) -> dict:
+        # Check if the order object is None to prevent null pointer exceptions
         if order is None:
-            raise ValueError("Order cannot be None")
-        self.order = order
-
-    def serialize(self) -> dict:
-        # Check if order is not None before attempting to serialize
-        if self.order is not None:
-            # Assuming order has 'id' and 'customer' keys
-            return {
-                'id': self.order.get('id'),
-                'customer': self.order.get('customer')
+            # Return None or raise an exception as per the requirement
+            return None
+        
+        try:
+            # Attempt to serialize the order object
+            serialized_order = {
+                'id': order.id,
+                'customer_name': order.customer_name,
+                'order_date': order.order_date
             }
-        else:
-            # Handle the case where order is None
-            return {}
+            # Return the serialized order object
+            return serialized_order
+        except AttributeError as e:
+            # Handle attribute errors that may occur during serialization
+            print(f"Error serializing order: {e}")
+            return None
