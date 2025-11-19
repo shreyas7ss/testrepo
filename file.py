@@ -1,10 +1,19 @@
-'''Improved module with error handling.'''
+from typing import Optional, List
 
-class Serializer:
-    def serialize(self, data):
-        if data is None:
-            return None
+class Order:
+    def __init__(self, id: int, items: Optional[List[str]] = None):
+        self.id = id
+        self.items = items if items is not None else []
+
+
+class OrderSerializer:
+    def serialize(self, order: Order) -> dict:
         try:
-            return {"status": "ok", "data": data}
+            return {
+                'id': order.id,
+                'items': order.items
+            }
         except Exception as e:
-            raise ValueError(f"Serialization failed: {e}")
+            # Log or handle the exception as needed
+            print(f'Error serializing order: {str(e)}')
+            return {}
